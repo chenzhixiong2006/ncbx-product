@@ -1,0 +1,18 @@
+#http://GATAWAY-HOST:PORT/actuator/gateway/routes，获取路由信息，生产环境需要去掉
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    org.springframework.cloud.gateway: INFO
+    org.springframework.http.server.reactive: INFO
+    org.springframework.web.reactive: INFO
+    reactor.ipc.netty: INFO
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka/

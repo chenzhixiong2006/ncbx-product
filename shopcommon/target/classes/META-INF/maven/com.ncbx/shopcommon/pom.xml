@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ncbx</groupId>
+    <artifactId>shop</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>shopcommon</artifactId>
+  <packaging>jar</packaging>
+  <dependencies>
+  	  <!-- redis配置开始 -->
+	  <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+      </dependency>
+      <dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+	  </dependency>
+      <!-- redis配置结束 -->
+  </dependencies>
+</project>

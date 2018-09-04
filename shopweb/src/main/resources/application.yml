@@ -1,0 +1,8 @@
+server:
+  port: 1003
+      
+spring:
+  profiles:
+    active: me
+  application:
+    name: shopweb
