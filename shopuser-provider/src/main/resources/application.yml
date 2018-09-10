@@ -3,7 +3,7 @@ mybatis:
   mapperLocations: classpath:mapper/*.xml
 
 server:
-  port: 1006
+  port: 8086
       
 spring:
   profiles:
